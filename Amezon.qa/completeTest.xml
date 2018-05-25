@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+		<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"></listener>
+		<listener class-name="Analizer.MyTransform"></listener>
+		<listener class-name="Amezon.qa.util.webdriverlisener"></listener>
+		</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Amazon.QA.Testcase.category_page"/>
+      <class name="Amazon.QA.Testcase.Todaydeals"/>
+      <class name="Amazon.QA.Testcase.AmazonpayTest"/>
+      <class name="Amazon.QA.Testcase.YourList_page"/>
+      <class name="Amazon.QA.Testcase.yoursAmezanIN"/>
+      <class name="Amazon.QA.Testcase.Homepage"/>
+      <class name="Amazon.QA.Testcase.loginfuction"/>
+      <class name="Amazon.QA.Testcase.CustomerServicepage"/>
+      <class name="Amazon.QA.Testcase.Yororders_Page"/>
+      <class name="Amazon.QA.Testcase.yourPrime"/>
+      <class name="Amazon.QA.Testcase.Card_page_Functions"/>
+      <class name="Amazon.QA.Testcase.sellpage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
